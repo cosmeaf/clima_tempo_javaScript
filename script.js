@@ -34,7 +34,6 @@ document.querySelector('.busca').addEventListener('submit', async function(event
 function showInfo(json){
     showWarnning('');
     
-
     document.querySelector('.titulo').innerHTML = `${json.name} - ${json.country}`;
 
     document.querySelector('.tempInfo').innerHTML = `${json.temp} <sup>&degC</sup>`;
